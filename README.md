@@ -19,7 +19,7 @@ This Node.js module provides functions for RSA encryption and decryption using p
 To use this module, make sure you have Node.js installed. Then, install the required dependencies:
 
 ```bash
-npm install
+npm install rsa-crypto-node
 ```
 
 ## Configuration
@@ -36,7 +36,7 @@ npm install
 ## Usage
 
 ```javaScript
-import rsaEncryption from './path/to/rsaEncryption';
+import rsaEncryption from 'rsa-crypto-node';
 ```
 
 ### Encrypt with Public Key
