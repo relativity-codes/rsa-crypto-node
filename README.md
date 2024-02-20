@@ -29,8 +29,8 @@ npm install
 2. Add the paths to your public and private key files as environment variables:
 
    ```env
-   PUBLIC_KEY_PATH=../keys/public_key.pem
-   PRIVATE_KEY_PATH=../keys/private_key.pem
+   PUBLIC_KEY_PATH=./keys/public_key.pem
+   PRIVATE_KEY_PATH=./keys/private_key.pem
    ```
 
 ## Usage

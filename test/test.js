@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import rsaEncryption from './path/to/rsaEncryption'; // Update the path accordingly
+import rsaEncryption from '../lib/rsa-crypto-node';
 
 describe('RSA Encryption Module', () => {
   const plaintext = 'Hello, World!';
