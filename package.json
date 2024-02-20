@@ -1,0 +1,33 @@
+{
+  "name": "rsa-crypto-node",
+  "version": "1.0.0",
+  "description": "An npm package for asymmetric encryption using RSA.",
+  "main": "lib/rsa-crypto-node.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relativity-codes/rsa-crypto-node.git"
+  },
+  "keywords": [
+    "rsa",
+    "encryption",
+    "decryption",
+    "assymetric"
+  ],
+  "author": "Ukweh Everest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/relativity-codes/rsa-crypto-node/issues"
+  },
+  "homepage": "https://github.com/relativity-codes/rsa-crypto-node#readme",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0"
+  }
+}
