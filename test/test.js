@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import rsaEncryption from '../lib/rsa-crypto-node';
+import rsaEncryption from '../lib/index.js';
 
 describe('RSA Encryption Module', () => {
   const plaintext = 'Hello, World!';
@@ -35,5 +35,4 @@ describe('RSA Encryption Module', () => {
   });
 
   // Add more tests as needed for your specific use cases
-
 });
